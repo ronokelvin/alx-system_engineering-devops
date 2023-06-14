@@ -1,3 +1,4 @@
 
 #!/bin/bash
-set
+set -o posix ; set
+declare -F
