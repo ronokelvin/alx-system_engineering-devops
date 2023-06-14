@@ -1,3 +1,2 @@
 #!/bin/bash
-path_dirs=$(echo $PATH | tr ':' '\n')
-num_dirs=0
+IFS=':' read -ra dirs <<< "$PATH"; echo ${#dirs[@]}
