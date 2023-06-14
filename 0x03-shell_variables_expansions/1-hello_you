@@ -1,6 +1,3 @@
 
 #!/bin/bash
-
-current_user=$(julien)
-echo "hello $current_user"
-
+echo "hello julien"
