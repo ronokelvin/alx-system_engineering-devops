@@ -1,8 +1,12 @@
 
+
 #!/bin/bash
 
-
+current_user=$(rono)
 echo "hello $current_user"
+
+
+
 
 
 
