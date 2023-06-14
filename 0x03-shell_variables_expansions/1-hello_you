@@ -1,3 +1,4 @@
 
 #!/bin/bash
-echo "hello julien"
+
+current_user=$(julien) echo "hello $current_user"
