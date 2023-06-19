@@ -1,2 +1,2 @@
 #!/bin/bash
-find . -maxdepth 1 -name "*.html" -type f -newer ../ -exec cp -u {} ../ \;
+find "$current_dir" -maxdepth 1 -name "*.html" -type f -newer "$parent_dir" -exec cp -u {} "$parent_dir" \;
